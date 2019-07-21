@@ -22,24 +22,21 @@
 	<article>
 		<h2>Elérhetőség</h2>
 		<section>
-			<h3>Harsona Hangszerbolt</h3>
 			<address>
+				<h3>Harsona Hangszerbolt</h3>
 				4024 Debrecen, Ezerjó út 78/c<br>
 				<a href="tel:+36524465893">(52)446-5893</a><br>
 				<a href="mailto:info@harsonahangszer.hu">info@harsonahangszer.hu</a>
 			</address>
 			<form>
-				Vezetéknév:<br>
-				<input type="text" name="vezeteknev"><br>
-				Keresztnév:<br>
-				<input type="text" name="keresztnev"><br>
-				e-mail cím:<br>
-				<input type="text" name="email"><br>
-			</form>
-			<form>
-				<textarea name="message" rows="10" cols="30">
-					Küldjön nekünk üzenetet!
-				</textarea><br>
+				<label for="vezeteknev">Vezetéknév:</label><br>
+				<input type="text" id="vezeteknev" name="vezeteknev"><br>
+				<label for="keresztnev">Keresztnév:</label><br>
+				<input type="text" id="keresztnev" name="keresztnev"><br>
+				<label for="email">e-mail cím:</label><br>
+				<input type="email" id="email" name="email"><br>
+				<textarea id="message" name="message" rows="10" cols="30"
+					placeholder="Küldjön nekünk üzenetet!"></textarea><br>
 				<input type="submit" name="Elküldés">
 			</form>
 
